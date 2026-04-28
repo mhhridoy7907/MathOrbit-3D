@@ -1,0 +1,36 @@
+
+body {
+    margin:0;
+    overflow:hidden;
+    background:#0a0a14;
+    font-family:Arial;
+}
+
+.ui{
+    position:absolute;
+    left:20px;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:10;
+    background:rgba(20,20,35,0.95);
+    padding:20px;
+    border-radius:15px;
+    color:white;
+    width:240px;
+}
+
+input{
+    width:70px;
+    margin:4px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    background:#00aaff;
+    border:none;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+}
